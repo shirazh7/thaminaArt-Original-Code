@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slider{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6em;
+}
+@media screen and (max-width: 500px) {
+  .slider{
+    margin-right: 3em;
+
+  }
+}
+@media screen and (max-width: 558px) {
+  .slider{
+    margin-right: 55px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 537px) {
+  .slider{
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  .slider{
+    margin-right: 30px;
+  }
+}
+
+.image{
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: rgb(236, 128, 128);
+}
+@media screen and (max-width: 636px) {
+  .image{
+    width: 350px;
+    height: 500px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 555px) {
+  .image{
+    width: 350px;
+    height: 500px;
+    margin-right: 55px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 515px) {
+  .image{
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .image{
+    width: 300px;
+    height: 450px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .image{
+    width: 280px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 368px) {
+  .image{
+    width: 260px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .image{
+    width: 200px;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .image{
+    width: 200px;
+    height: 380px;
+  }
+}
+
+.right-arrow{
+  position:  relative;
+  top: 0%;
+  right: -470px;
+  font-size: 3rem;
+  color: rgb(211, 151, 151);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media screen and (max-width: 594px) {
+  .right-arrow{
+    position: relative;
+    top: 45%;
+    right: -400px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .right-arrow{
+    right: -390px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .right-arrow{
+    right: -350px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .right-arrow{
+    right: -300px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .right-arrow{
+    right: -230px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .right-arrow{
+    right: -200px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .right-arrow{
+    right: -160px;
+  }
+}
+.left-arrow{
+  position: relative;
+  top: 0%;
+  left: 10px;
+  font-size: 3rem;
+  color: rgb(235, 194, 194);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+@media screen and (max-width: 594px) {
+  .left-arrow{
+    position: relative;
+    top: 45%;
+    left: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .left-arrow{
+    left: 90px;
+  }
+}
+
+.slide{
+  opacity: 0;
+  transition-duration:1s ease ;
+}
+
+.slide.active{
+  opacity:  1;
+  transition-duration: 1s;
+  transform: scale(1.08)
+
+}
