@@ -25,7 +25,7 @@ const InnerPageContainer = styled.div`
     max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : "auto")};
     min-height: 100%;
     margin-top: 5em;
-    margin-left: 7em;
+    margin-left: 5em;
     margin-bottom: 5em;
     flex-direction: row;
     align-items: flex-start;
