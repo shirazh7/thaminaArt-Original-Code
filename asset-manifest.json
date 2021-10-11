@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/shirazh7/Art-Portfolio/static/css/main.4f8127ef.chunk.css",
-    "main.js": "/shirazh7/Art-Portfolio/static/js/main.0ea752be.chunk.js",
-    "main.js.map": "/shirazh7/Art-Portfolio/static/js/main.0ea752be.chunk.js.map",
+    "main.js": "/shirazh7/Art-Portfolio/static/js/main.d0b97192.chunk.js",
+    "main.js.map": "/shirazh7/Art-Portfolio/static/js/main.d0b97192.chunk.js.map",
     "runtime-main.js": "/shirazh7/Art-Portfolio/static/js/runtime-main.a06240ff.js",
     "runtime-main.js.map": "/shirazh7/Art-Portfolio/static/js/runtime-main.a06240ff.js.map",
     "static/js/2.4584edf3.chunk.js": "/shirazh7/Art-Portfolio/static/js/2.4584edf3.chunk.js",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.a06240ff.js",
     "static/js/2.4584edf3.chunk.js",
     "static/css/main.4f8127ef.chunk.css",
-    "static/js/main.0ea752be.chunk.js"
+    "static/js/main.d0b97192.chunk.js"
   ]
 }
