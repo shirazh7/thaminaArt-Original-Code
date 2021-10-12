@@ -55,13 +55,13 @@ export function Navbar(props) {
         <NavbarContainer>
             {!isMobile && (
                 <AccessibilityCointainer>
-                    <AnchorLink href="/">Home </AnchorLink>
+                    <AnchorLink href="#/">Home </AnchorLink>
                     <Marginer direction="horizontal" margin={10} />
-                    <AnchorLink href="/about"> About </AnchorLink>
+                    <AnchorLink href="#/about"> About </AnchorLink>
                     <Marginer direction="horizontal" margin={10} />
-                    <AnchorLink href="/portfolio"> Portfolio </AnchorLink>
+                    <AnchorLink href="#/portfolio"> Portfolio </AnchorLink>
                     <Marginer direction="horizontal" margin={10} />
-                    <AnchorLink href="/contact"> Contact </AnchorLink>
+                    <AnchorLink href="#/contact"> Contact </AnchorLink>
                     <Marginer direction="horizontal" margin={20} />
                 </AccessibilityCointainer>
             )}

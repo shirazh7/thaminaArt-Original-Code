@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/thaminaArt/static/css/main.4f8127ef.chunk.css",
-    "main.js": "/thaminaArt/static/js/main.367bfa6d.chunk.js",
-    "main.js.map": "/thaminaArt/static/js/main.367bfa6d.chunk.js.map",
+    "main.js": "/thaminaArt/static/js/main.1cc71345.chunk.js",
+    "main.js.map": "/thaminaArt/static/js/main.1cc71345.chunk.js.map",
     "runtime-main.js": "/thaminaArt/static/js/runtime-main.7dca468f.js",
     "runtime-main.js.map": "/thaminaArt/static/js/runtime-main.7dca468f.js.map",
     "static/js/2.809c9b34.chunk.js": "/thaminaArt/static/js/2.809c9b34.chunk.js",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.7dca468f.js",
     "static/js/2.809c9b34.chunk.js",
     "static/css/main.4f8127ef.chunk.css",
-    "static/js/main.367bfa6d.chunk.js"
+    "static/js/main.1cc71345.chunk.js"
   ]
 }
